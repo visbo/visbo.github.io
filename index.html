@@ -1,1 +1,75 @@
-Welcome to Visbo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="style.css">
+    <title>visbo</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3M41E2KRCK"></script>
+</head>
+<body>
+    <header class="header-area">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.png" alt="logo">
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="banner-area">
+        <div class="container">
+            <div class="banner-wrapper">
+                <div class="banner-content">
+                    <h2>Manifest your life goals.</h2>
+                    <p>Visbo allows you to create a digital vision board and helps you visualize your goals.</p>
+                    <ul>
+                        <li><a class="app-store" href="#"><img src="image/app-store.png" alt="image"></a></li>
+                        <li><a class="app-store" href="#"><img src="image/Google.png" alt="image"></a></li>
+                    </ul>
+                </div>
+                <div class="banner-image-wrap">
+                    <img src="image/mobile-one.png" alt="image" class="mobile-one">
+                    <img src="image/mobile-two.png" alt="image" class="mobile-two">
+                    <ul class="mobile-show">
+                        <li><a class="app-store" href="#"><img src="image/app-store.png" alt="image"></a></li>
+                        <li><a class="app-store" href="#"><img src="image/Google.png" alt="image"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-area">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="copy-right">
+                    <p>©Hapjoy Technologies Private Limited</p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var appButton = document.querySelectorAll('.app-store')
+        appButton.forEach(button => {
+            button.addEventListener('click', function(){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-3M41E2KRCK');
+            })
+        })
+        
+    </script>
+</body>
+</html>
