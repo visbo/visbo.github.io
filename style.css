@@ -11,21 +11,20 @@ ul {
     list-style-type: none;
     text-decoration: none;
 }
-a:hover{
+a:hover {
     text-decoration: none;
 }
-ul li{
+ul li {
     list-style: none;
 }
-body{
+body {
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
-
 }
-img{
+img {
     max-width: 100%;
 }
-.container{
+.container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -34,49 +33,49 @@ img{
     max-width: 1300px;
 }
 @media screen and (max-width: 575px) {
-   .container{
-        max-width:540px;
+    .container {
+        max-width: 540px;
     }
 }
 @media screen and (max-width: 767px) {
-    .container{
-         max-width: 720px;
-     }
- }
- @media screen and (max-width: 991px) {
-    .container{
-         max-width:960px;
-     }
- }
- 
-@media screen and (max-width: 1400px) {
-   .container{
-        max-width:1140px;
+    .container {
+        max-width: 720px;
     }
 }
-.header-area{
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+.header-area {
     padding-top: 30px;
 }
-.logo{
+.logo {
     max-width: 150px;
 }
-.logo a img{
+.logo a img {
     width: 100%;
 }
-.banner-area{
+.banner-area {
     padding: 100px 0px;
 }
-.banner-wrapper{
+.banner-wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.banner-content{
+.banner-content {
     padding-right: 100px;
     width: 60%;
     padding-top: 60px;
 }
-.banner-content h2{
+.banner-content h2 {
     font-size: 56px;
     line-height: 1.2;
     color: #333;
@@ -84,7 +83,7 @@ img{
     margin-bottom: 13px;
     font-weight: bold;
 }
-.banner-content p{
+.banner-content p {
     font-size: 19px;
     font-weight: 500;
     line-height: 1.6;
@@ -93,59 +92,59 @@ img{
     margin-bottom: 35px;
     max-width: 460px;
 }
-.banner-content ul{
+.banner-content ul {
     display: flex;
     align-items: center;
 }
-.banner-content ul li{
+.banner-content ul li {
     margin-right: 10px;
 }
-.banner-content ul li img{
+.banner-content ul li img {
     max-width: 216px;
     height: 64px;
     margin-right: 10px;
 }
-.banner-image-wrap{
+.banner-image-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 40%;
     flex-wrap: wrap;
 }
-.banner-image-wrap img{
+.banner-image-wrap img {
     width: calc(50% - 40px);
     margin-left: 40px;
 }
-.mobile-one{
+.mobile-one {
     margin-bottom: 70px;
 }
-.mobile-two{
+.mobile-two {
     margin-top: 70px;
 }
 
-.mobile-show{
+.mobile-show {
     display: none;
 }
-.footer-wrapper{
+.footer-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 50px;
     padding-top: 30px;
 }
-.menu ul{
+.menu ul {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.menu ul li{
-    padding:0px 15px;
+.menu ul li {
+    padding: 0px 15px;
     position: relative;
     line-height: 1;
 }
-.menu ul li:after{
+.menu ul li:after {
     position: absolute;
-    content: "";
+    content: '';
     top: 50%;
     transform: translateY(-50%);
     right: 0;
@@ -153,27 +152,26 @@ img{
     width: 1px;
     background-color: #999;
 }
-.menu ul li:last-child{
+.menu ul li:last-child {
     padding-right: 0px;
 }
-.menu ul li:last-child:after{
+.menu ul li:last-child:after {
     display: none;
 }
-.menu ul li a{
+.menu ul li a {
     font-size: 12px;
     font-weight: normal;
     color: #999;
-    transition: .4s ease-in;
+    transition: 0.4s ease-in;
 }
-.menu ul li a:hover{
+.menu ul li a:hover {
     color: #333;
 }
-.copy-right p{
+.copy-right p {
     font-size: 12px;
     color: #999;
 }
 @media screen and (max-width: 1199px) {
-
     .banner-content {
         padding-right: 50px;
     }
@@ -192,7 +190,7 @@ img{
         padding: 70px 0px;
     }
     .mobile-two {
-        margin-top:0px;
+        margin-top: 0px;
     }
     body {
         display: flex;
@@ -207,7 +205,7 @@ img{
     .banner-area {
         padding: 20px 0px;
     }
-    .banner-content{
+    .banner-content {
         text-align: center;
         padding-right: 0px;
         padding-bottom: 30px;
@@ -218,91 +216,97 @@ img{
         display: none;
     }
     .banner-image-wrap {
-        margin-right:0px;
+        margin-right: 0px;
         flex-direction: column;
         width: 100%;
     }
     .banner-content p {
-       margin: 0 auto;
+        margin: 0 auto;
     }
     .mobile-show {
         display: block;
     }
-    .mobile-two{
+    .mobile-two {
         display: none;
     }
-    .mobile-show{
+    .mobile-show {
         margin-top: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .mobile-show li{
+    .mobile-show li {
         margin-right: 15px;
     }
-    .mobile-show li:last-child{
+    .mobile-show li:last-child {
         margin-right: 0px;
     }
     .logo {
         margin: 0 auto;
     }
-    .banner-image-wrap img{
+    .banner-image-wrap img {
         margin-left: 0;
     }
 }
 @media screen and (max-width: 575px) {
-    body{
-        padding-bottom: 170px;
+    body {
     }
     .banner-content h2 {
         font-size: 32px;
         max-width: 312px;
         margin: 0 auto;
     }
-    .banner-content p{
-        font-size:14px;
+    .banner-content p {
+        font-size: 14px;
         font-weight: 500;
         max-width: 300px;
         margin: 0 auto;
     }
-    .footer-area {
+    .footer-app {
         box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.15);
-        position: fixed;
+        position: sticky;
         bottom: 0;
+        background-color: #fff;
+    }
+    .footer-area {
         background-color: #fff;
         width: 100%;
     }
-    .copy-right p{
+    .copy-right p {
         margin-bottom: 8px;
     }
-    .banner-image-wrap img{
+    .banner-image-wrap img {
         width: 100%;
         max-width: 250px;
     }
-    .footer-wrapper{
+    .footer-wrapper {
         flex-direction: column;
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .mobile-show{
+    .mobile-show {
         margin-top: 20px;
+        margin-bottom: 10px;
     }
-    .banner-area{
+    .banner-area {
         padding-bottom: 0;
     }
-    .mobile-show li{
+    .mobile-show li {
         margin-bottom: 0;
+    }
+    .mobile-show li a {
+        display: block;
     }
 }
 @media screen and (max-width: 440px) {
-    .mobile-show{
+    .mobile-show {
         display: flex;
     }
-    .mobile-show li{
+    .mobile-show li {
         margin-left: 8px;
         margin-right: 8px;
     }
-    .mobile-show li svg{
+    .mobile-show li svg {
         width: 100%;
     }
 }
